@@ -14,7 +14,7 @@ export const contactData = async ({ request }) => {
 export const Contact = () => {
   return (
     <>
-      <section className="container ">
+      <section className="container section-contact ">
         <h2 className="section-common--heading">contact us</h2>
         <p className="section-common--subheading">
           Get in touch with us. We are always here to help you.
@@ -22,7 +22,7 @@ export const Contact = () => {
 
         <div className="section-contact">
           <div className=" grid grid-two--cols">
-            <div className="contact-content">
+            <div className="contact-content grid">
               <Form method="POST" action="/contact">
                 <div className="grid grid-two-cols mb-3">
                   <div>
@@ -54,7 +54,7 @@ export const Contact = () => {
                   <label htmlFor="message">message</label>
                   <textarea
                     name="message"
-                    id="message "
+                    id="message"
                     cols="30"
                     rows="10"
                     placeholder="we are always here to help you."
@@ -62,7 +62,7 @@ export const Contact = () => {
                 </div>
 
                 <div className="mt-3">
-                  <button type="submit" className="btn contact-btn">
+                  <button type="submit" className="btn contact-btn btn-submit">
                     send message
                   </button>
                 </div>
