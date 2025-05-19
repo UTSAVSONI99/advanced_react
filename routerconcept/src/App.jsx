@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import { Movie } from "./Pages/Movie";
-import Contact, { contactData } from "./Pages/Contact";
+import { Contact, contactData } from "./Pages/Contact";
 import AppLayout from "./components/Layout/AppLayout";
 import { ErrorPage } from "./Pages/ErrorPage";
 import { getMoviesData } from "./api/ApiData";
